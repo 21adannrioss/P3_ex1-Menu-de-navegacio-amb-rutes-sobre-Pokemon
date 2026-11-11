@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "multimedia-routing": {
+    "pokemon-routing": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -60,10 +60,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "multimedia-routing:build:production"
+              "buildTarget": "pokemon-routing:build:production"
             },
             "development": {
-              "buildTarget": "multimedia-routing:build:development"
+              "buildTarget": "pokemon-routing:build:development"
             }
           },
           "defaultConfiguration": "development"
