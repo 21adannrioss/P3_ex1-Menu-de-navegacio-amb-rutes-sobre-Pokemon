@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  gap: 30px;
+  background-color: #cc0000;
+  padding: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffde00;
+}
+
+.activa {
+  color: #ffde00;
+  font-weight: bold;
+  border-bottom: 2px solid #ffde00;
+}
